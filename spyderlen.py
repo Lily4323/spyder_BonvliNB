@@ -7,13 +7,13 @@ from time import sleep
 
 # 请求头
 header = {
-	'Cookie': 'bid=UTsYtc9i21Y; douban-fav-remind=1; ll="108288"; __utmz=30149280.1698648070.2.2.utmcsr=cn.bing.com|utmccn=(referral)|utmcmd=referral|utmcct=/; dbcl2="275496867:5S3p5dL/XJ4"; push_noty_num=0; push_doumail_num=0; __utmv=30149280.27549; ck=G32V; __utma=30149280.2108357166.1697710054.1698663805.1698669281.4; __utmc=30149280; frodotk_db="0adc030b0e6b0b39209409212b4121ab"; __utmb=30149280.2.10.1698669281; ap_v=0,6.0',
-	'Accept': '*/*',
-	'Accept-Encoding': 'gzip, deflate,br',
-	'Host': 'erebor.douban.com',
-	'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.76',
-	'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
-	'Referer': 'https://movie.douban.com/subject/1849031/',
+	'Cookie':'bid=UTsYtc9i21Y; douban-fav-remind=1; ll="108288"; _pk_id.100001.4cf6=5b4162575b007e4e.1698648070.; __utmz=223695111.1698648070.1.1.utmcsr=cn.bing.com|utmccn=(referral)|utmcmd=referral|utmcct=/; __yadk_uid=pnE9oLNGBuRt3vc0upTHudiTrJhYvJEf; _vwo_uuid_v2=D1D4592EBBD56A27F8D9F0E23D20B99BF|cc44663736cf5d1a3737ef03f24a6505; dbcl2="275496867:5S3p5dL/XJ4"; push_noty_num=0; push_doumail_num=0; __utmv=30149280.27549; ck=G32V; _pk_ref.100001.4cf6=%5B%22%22%2C%22%22%2C1698841008%2C%22https%3A%2F%2Fkkb-production.jupyter-proxy.kaggle.net%2F%22%5D; _pk_ses.100001.4cf6=1; ap_v=0,6.0; __utma=30149280.2108357166.1697710054.1698669281.1698841008.5; __utmc=30149280; __utmz=30149280.1698841008.5.3.utmcsr=kkb-production.jupyter-proxy.kaggle.net|utmccn=(referral)|utmcmd=referral|utmcct=/; __utma=223695111.526866128.1698648070.1698669281.1698841011.4; __utmb=223695111.0.10.1698841011; __utmc=223695111; __utmb=30149280.4.10.1698841008; frodotk_db="403478f4e05410eec09d6adea0fc32ca"',
+        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+	'Accept-Encoding': 'gzip, deflate',
+	'Host': 'movie.douban.com',
+	'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15',
+	'Accept-Language': 'zh-CN,zh-Hans;q=0.9',
+	'Referer': 'https://movie.douban.com/subject/35267224/?from=showing',
 	'Connection': 'keep-alive'
 }
 
