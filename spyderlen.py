@@ -42,7 +42,7 @@ def get_shortcontent(v_movie_id):
 		url = 'https://movie.douban.com/subject/{}/comments?start={}&limit=20&status=P&sort=new_score'.format(
 			v_movie_id, (page - 1) * 20)
 		# 发送请求
-		response = requests.get(url, headers=header, verify=False)
+		response = requests.get(url, headers=h1, verify=False)
 		print(response.status_code)
 		# 解析页面数据
 		soup = BeautifulSoup(response.text, 'html.parser')
